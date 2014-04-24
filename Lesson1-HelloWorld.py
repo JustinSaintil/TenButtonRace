@@ -13,7 +13,7 @@ import wx
 app = wx.App(False) #False means error messages will print in the normal way
 
 #Create a new frame (A frame is often casually called a window).
-frame = wx.Frame(None, wx.ID_ANY, "Hello World") # None means it is top level. It has no parent frame.
+frame = wx.Frame(None, wx.ID_ANY, "J.S.", size=(400,100), pos=(1000,300)) # None means it is top level. It has no parent frame.
 
 # Show the frame.
 frame.Show(True)
@@ -28,6 +28,9 @@ app.MainLoop()
 
 #2. Add the argument size = (400,100) to the frome constructor on line 16.
 #What does it do?
+#It changes the dimensions (width and height) of my frame.
 
 #3. Add the argument pos=(1000,300) to the frome constructor on line 16.
 #What does it do?
+
+#It changes the allignment of the frame on my screen.
